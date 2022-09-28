@@ -36,7 +36,8 @@ namespace LineComparisonProblem
             Length2 = Math.Sqrt((Math.Pow(a1 - a2, 2) + Math.Pow(b1 - b2, 2)));
             Console.WriteLine("Length of first line is " + Length1);
             Console.WriteLine("Length of second line is " + Length2);
-
+            //UC2
+            Console.WriteLine(Length1.Equals(Length2));
 
 
         }
