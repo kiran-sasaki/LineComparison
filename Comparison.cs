@@ -38,6 +38,20 @@ namespace LineComparisonProblem
             Console.WriteLine("Length of second line is " + Length2);
             //UC2
             Console.WriteLine(Length1.Equals(Length2));
+            //UC3
+            int LineLength = Length1.CompareTo(Length2);
+            if (LineLength == 0)
+            {
+                Console.WriteLine("Length of the two lines are equal");
+            }
+            else if (LineLength > 0)
+            {
+                Console.WriteLine("Length of line1 is " + Length1 + " is greater than  " + Length2 + " length of line2");
+            }
+            else
+            {
+                Console.WriteLine("Length of line1 " + Length1 + " is lesser than  " + Length2 + " length of line2");
+            }
 
 
         }
