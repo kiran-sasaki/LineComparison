@@ -10,6 +10,7 @@ namespace LineComparisonProblem
     {
         public static void ComparingLength()
         {
+            //Variables
             Console.WriteLine("enter the co-ordinates");
             Console.Write("x1: ");
             int x1 = Convert.ToInt32(Console.ReadLine());
